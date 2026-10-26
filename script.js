@@ -1,8 +1,8 @@
 /* ===== Single source of truth ===== */
 const CONFIG = {
   CA: 'TBA',
-  X: 'TBA',
-  TG: 'TBA',
+  X: 'https://x.com/AuraFinalBoob',
+  TG: 'https://t.me/AuraFinalBoob',
   SOL_MINT: 'So11111111111111111111111111111111111111112'
 };
 const isTBA = v => !v || v === 'TBA';
