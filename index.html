@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aura Final Boob ($DANIELLA) | Solana</title>
+<meta name="description" content="$DANIELLA — the final boss of aura. Meme token on pump.fun, Solana.">
+<meta property="og:image" content="assets/banner.jpg">
+<link rel="icon" href="assets/portrait.webp">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body class="no-js">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.9 2H22l-7.2 8.2L23.3 22h-6.6l-5.2-6.8L5.5 22H2.4l7.7-8.8L2 2h6.8l4.7 6.2L18.9 2Zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20Z"/></symbol>
+ <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.5 2.8c.9-.3 1.6.2 1.4 1.5Z"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 9h11v11H9zM5 15H4V4h11v1"/></symbol>
+ <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m5 12 5 5L20 7"/></symbol>
+ <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M7 15l4-4 3 3 6-7"/></symbol>
+ <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c.6 6.5 5.5 11.4 12 12-6.5.6-11.4 5.5-12 12-.6-6.5-5.5-11.4-12-12C6.5 11.4 11.4 6.5 12 0Z"/></symbol>
+ <symbol id="i-wallet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 7h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm0 0 13-4v4M16 13.5h2"/></symbol>
+ <symbol id="i-sol" viewBox="0 0 24 24"><path fill="currentColor" d="M6 5h15l-3 3H3l3-3Zm0 11h15l-3 3H3l3-3Zm12-5.5H3l3 3h15l-3-3Z"/></symbol>
+ <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 8h14l-4-4M20 16H6l4 4"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/></symbol>
+ <symbol id="i-hand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11V6a1.5 1.5 0 0 1 3 0v5m0-1V9a1.5 1.5 0 0 1 3 0v3m0-1a1.5 1.5 0 0 1 3 0v2l2.5-3.5a1.6 1.6 0 0 1 2.6 1.8L17 18a5 5 0 0 1-4 2h-2a6 6 0 0 1-6-6v-1.5a1.5 1.5 0 0 1 2-1.4"/></symbol>
+</svg>
+
+<div id="progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="blobs" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
+
+<header class="nav">
+ <a href="#top" class="brand"><img src="assets/portrait.webp" alt="" width="36" height="36"><span>$DANIELLA</span></a>
+ <nav class="hidden md:flex gap-6 text-sm"><a href="#meter">Aura</a><a href="#buy">How to buy</a><a href="#chart">Chart</a></nav>
+ <div class="flex items-center gap-2">
+  <a class="icon-btn" data-social="X" aria-label="X"><svg><use href="#i-x"/></svg></a>
+  <a class="icon-btn" data-social="TG" aria-label="Telegram"><svg><use href="#i-tg"/></svg></a>
+  <button class="pill ghost hidden sm:inline-flex" data-copy-ca><svg><use href="#i-copy"/></svg><span>Copy CA</span></button>
+  <a class="pill hot" data-link="buy" target="_blank" rel="noopener"><svg><use href="#i-bolt"/></svg>Buy Now</a>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero">
+ <div class="layer sky" data-speed="0.2"><div class="sun"></div></div>
+ <div class="layer bigword" data-speed="-0.6" aria-hidden="true">AURA</div>
+ <div class="layer sparkles" data-speed="0.5" aria-hidden="true"></div>
+ <div class="hero-inner">
+  <div class="hero-copy">
+   <p class="kicker"><svg><use href="#i-sol"/></svg>Live on pump.fun &middot; Solana</p>
+   <h1 class="display split">Aura Final <span class="grad">Boob</span></h1>
+   <p class="lead">The final boss of good vibes. <b>$DANIELLA</b> runs on sunsets, shaka energy and an aura meter that only goes up.</p>
+   <div class="flex flex-wrap gap-3 mt-7">
+    <a class="pill hot lg" data-link="buy" target="_blank" rel="noopener"><svg><use href="#i-bolt"/></svg>Buy Now</a>
+    <a class="pill ghost lg" data-link="chart" target="_blank" rel="noopener"><svg><use href="#i-chart"/></svg>Chart</a>
+   </div>
+  </div>
+  <div class="hero-art">
+   <div class="arch layer" data-speed="0.12"><picture><source srcset="assets/portrait.webp" type="image/webp"><img src="assets/portrait.jpg" alt="$DANIELLA portrait with a shaka sign" width="1024" height="1024"></picture></div>
+   <span class="chip c1 layer" data-speed="0.35"><svg><use href="#i-bolt"/></svg>AURA +1000</span>
+   <span class="chip c2 layer" data-speed="-0.25"><svg><use href="#i-shield"/></svg>FINAL BOSS</span>
+   <span class="chip c3 layer" data-speed="0.55"><svg><use href="#i-hand"/></svg>SHAKA</span>
+   <div class="coins layer" data-speed="0.8" aria-hidden="true"></div>
+  </div>
+ </div>
+</section>
+
+<div class="ribbons" aria-hidden="true">
+ <div class="ribbon r1"><div class="track">AURA +1000 <svg><use href="#i-star"/></svg> FINAL BOSS <svg><use href="#i-star"/></svg> $DANIELLA <svg><use href="#i-star"/></svg> SHAKA <svg><use href="#i-star"/></svg> GOOD VIBES ONLY <svg><use href="#i-star"/></svg>&nbsp;</div></div>
+ <div class="ribbon r2"><div class="track">SUNSET MODE <svg><use href="#i-star"/></svg> PUMP.FUN <svg><use href="#i-star"/></svg> SOLANA <svg><use href="#i-star"/></svg> AURA FARMING <svg><use href="#i-star"/></svg> NO BAD DAYS <svg><use href="#i-star"/></svg>&nbsp;</div></div>
+</div>
+
+<section class="ca-sec reveal">
+ <div class="glass ca-box">
+  <p class="label">Contract address</p>
+  <div class="ca-row"><code id="ca-value">TBA</code><button class="pill hot" data-copy-ca><svg><use href="#i-copy"/></svg><span>Copy</span></button></div>
+  <p class="warn"><svg><use href="#i-shield"/></svg>Only trust the CA posted here and on our official socials. Admins will never DM you first.</p>
+ </div>
+</section>
+
+<section class="meter-sec" id="meter">
+ <div class="meter-stage">
+  <div class="meter-art">
+   <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+   <div class="disc"><picture><source srcset="assets/portrait.webp" type="image/webp"><img src="assets/portrait.jpg" alt="" loading="lazy" width="1024" height="1024"></picture></div>
+  </div>
+  <div class="meter-copy">
+   <p class="kicker">Aura meter</p>
+   <div class="num"><span id="aura-num">0</span><small>%</small></div>
+   <div class="bar"><i id="aura-bar"></i></div>
+   <p class="caption" id="aura-cap">Booting up good vibes...</p>
+  </div>
+ </div>
+</section>
+
+<section class="banner-sec">
+ <div class="banner-clip"><picture><source srcset="assets/banner.webp" type="image/webp"><img src="assets/banner.jpg" alt="Sunset beach scene" loading="lazy" width="1024" height="341"></picture><div class="banner-tint"></div></div>
+ <div class="banner-text">
+  <h2 class="display split">Every sunset is a <span class="grad">level up</span></h2>
+  <p class="lead">No roadmap to the moon. Just golden hour, a shaka, and a community farming aura together.</p>
+ </div>
+</section>
+
+<section class="buy-sec" id="buy">
+ <h2 class="display split text-center">How to buy <span class="grad">$DANIELLA</span></h2>
+ <div class="steps">
+  <article class="glass step reveal"><div class="sn">01</div><svg><use href="#i-wallet"/></svg><h3>Get Phantom</h3><p>Install the Phantom wallet app or browser extension and create a wallet. Keep your seed phrase offline.</p></article>
+  <article class="glass step reveal"><div class="sn">02</div><svg><use href="#i-sol"/></svg><h3>Get SOL</h3><p>Buy SOL inside Phantom or send it from an exchange to your Phantom address.</p></article>
+  <article class="glass step reveal"><div class="sn">03</div><svg><use href="#i-bolt"/></svg><h3>Go to pump.fun swap</h3><p>Hit Buy Now to open the pump.fun swap and connect your wallet.</p></article>
+  <article class="glass step reveal"><div class="sn">04</div><svg><use href="#i-swap"/></svg><h3>Paste CA &amp; swap</h3><p>Paste the official contract address, pick your amount and swap. Welcome to the aura.</p></article>
+ </div>
+ <div class="text-center mt-10"><a class="pill hot lg" data-link="buy" target="_blank" rel="noopener"><svg><use href="#i-bolt"/></svg>Buy Now</a></div>
+</section>
+
+<section class="chart-sec" id="chart">
+ <h2 class="display split text-center">Live <span class="grad">chart</span></h2>
+ <div class="glass chart-frame reveal">
+  <iframe id="dex-embed" title="DexScreener chart" loading="lazy"></iframe>
+  <div class="chart-overlay" id="chart-overlay"><svg><use href="#i-chart"/></svg><p class="display">Chart goes live at launch</p><span>The contract address drops soon. Stay locked in.</span></div>
+ </div>
+ <div class="flex flex-wrap justify-center gap-3 mt-6">
+  <a class="pill ghost" data-link="chart" target="_blank" rel="noopener"><svg><use href="#i-chart"/></svg>Open DexScreener</a>
+  <a class="pill ghost" data-social="X" aria-label="X"><svg><use href="#i-x"/></svg><span>X</span></a>
+  <a class="pill ghost" data-social="TG" aria-label="Telegram"><svg><use href="#i-tg"/></svg><span>Telegram</span></a>
+ </div>
+</section>
+</main>
+
+<footer class="foot">
+ <p class="display text-2xl">$DANIELLA</p>
+ <p>$DANIELLA is a meme token made for fun with no intrinsic value or expectation of financial return. Nothing here is financial advice. Crypto is risky; only spend what you can afford to lose.</p>
+ <p class="opacity-60">&copy; 2026 Aura Final Boob</p>
+</footer>
+
+<div class="mbar"><button class="pill ghost" data-copy-ca><svg><use href="#i-copy"/></svg><span>Copy CA</span></button><a class="pill hot" data-link="buy" target="_blank" rel="noopener"><svg><use href="#i-bolt"/></svg>Buy Now</a></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/vendor/lenis.min.js" defer></script>
+<script src="script.js?v=4" defer></script>
+</body>
+</html>
