@@ -1,11 +1,11 @@
 /* ===== Single source of truth ===== */
 const CONFIG = {
-  CA: 'TBA',
+  CA: 'Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump',
   X: 'https://x.com/AuraFinalBoob',
   TG: 'https://t.me/AuraFinalBoob',
   SOL_MINT: 'So11111111111111111111111111111111111111112'
 };
-const isTBA = v => !v || v === 'TBA';
+const isTBA = v => !v || v === 'Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump';
 const LINKS = {
   buy: `https://swap.pump.fun/?input=${CONFIG.SOL_MINT}&output=${CONFIG.CA}`,
   chart: `https://dexscreener.com/solana/${CONFIG.CA}`,
@@ -17,7 +17,7 @@ const $$ = s => [...document.querySelectorAll(s)];
 
 $$('[data-link]').forEach(a => {
   a.href = LINKS[a.dataset.link];
-  if (isTBA(CONFIG.CA)) a.title = 'Contract address TBA. Link goes live at launch.';
+  if (isTBA(CONFIG.CA)) a.title = 'Contract address Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump. Link goes live at launch.';
 });
 $$('[data-social]').forEach(a => {
   const v = CONFIG[a.dataset.social];
@@ -46,7 +46,7 @@ async function copyCA(btn) {
   const span = btn.querySelector('span'), use = btn.querySelector('use'), old = span && span.textContent;
   if (span) span.textContent = ok ? 'Copied' : 'Copy failed';
   if (use) use.setAttribute('href', ok ? '#i-check' : '#i-copy');
-  toast(ok ? (isTBA(CONFIG.CA) ? 'Copied: CA is TBA until launch' : 'CA copied') : 'Copy failed, select it manually');
+  toast(ok ? (isTBA(CONFIG.CA) ? 'Copied: CA is Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump until launch' : 'CA copied') : 'Copy failed, select it manually');
   setTimeout(() => { if (span) span.textContent = old; if (use) use.setAttribute('href', '#i-copy'); }, 1600);
 }
 $$('[data-copy-ca]').forEach(b => b.addEventListener('click', () => copyCA(b)));
